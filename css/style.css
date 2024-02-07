@@ -28,16 +28,26 @@ ol {
 
 body {
     font-family: 'Open Sans';
+    color: white;
 }
-
 
 
 /* Layout */
 
+.top__section {
+    height: calc(100vh - 100px);
+}
+
+header {
+    background-color: black;
+    width: 280px;
+    height: 100%;
+}
+
+
 
 
 /* Webapp */
-
 
 
 /* Style */
@@ -57,4 +67,14 @@ body {
 
 /* Utilities */
 
+.flex {
+    display: flex;
+}
+
+
+
+
+/* Debug */
+
+.debug 
 
