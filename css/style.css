@@ -36,12 +36,26 @@ body {
 
 .top__section {
     height: calc(100vh - 100px);
+    display: flex;
 }
 
 header {
     background-color: black;
     width: 280px;
     height: 100%;
+    padding: 20px;
+}
+
+main {
+    background-color: #141923;
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #282828;
+    height: 100px;
+    padding: 20px;
 }
 
 
