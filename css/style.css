@@ -101,23 +101,57 @@ header ul {
     font-size: 18px;
 }
 
+.section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: calc(100% / 4);
+    border-left: 2px solid white;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-subtitle {
+    font-weight: 400;
+}
+
+section ul {
+    list-style: disc;
+    padding: 20px;
+}
 
 
 /* FOOTER */
 
+footer {
+    display: flex;
+}
 
 
 
 /* Utilities */
 
-.flex {
-    display: flex;
-}
+
 
 
 
 
 /* Debug */
 
-.debug 
 
