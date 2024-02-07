@@ -69,6 +69,10 @@ footer {
     padding: 20px;
 }
 
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
 /* Webapp */
 
 
@@ -141,6 +145,17 @@ section ul {
 
 footer {
     display: flex;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.footer-right {
+    text-align: end;
 }
 
 
