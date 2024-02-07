@@ -34,66 +34,27 @@ body {
 
 /* Layout */
 
-.container {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 16px;
-}
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer {
-    position: fixed;
-    width: 100vw;
-    min-height: 50px;
-    padding: 20px;
-    bottom: 0;
-    background-color: #282828;
-}
 
 /* Webapp */
 
-#app {
-    height: 100vh;
-    background-color: #0E0E0E;
-    color: white;
-    display: flex;
-}
-
-main {
-    width: 100vw;
-}
 
 
 /* Style */
 
-.page__header {
-    background-color: black;
-    width: 280px;
-    padding: 20px;
-}
+/* HEADER */
 
-.top-bar {
-    background-color: #0E121B;
-    height: 10vh;
-    min-height: 50px;
-}
 
-.main__content {
-    background-color: #141923;
-}
 
-.main-sections {
-    padding: 40px
-}
+/* MAIN */
+
+
+
+/* FOOTER */
+
 
 
 
 /* Utilities */
 
-.flex {
-    display: flex;
-}
+
