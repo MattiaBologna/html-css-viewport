@@ -69,9 +69,6 @@ footer {
     padding: 20px;
 }
 
-
-
-
 /* Webapp */
 
 
@@ -79,6 +76,16 @@ footer {
 
 /* HEADER */
 
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header ul {
+    list-style: disc;
+    padding: 20px;
+}
 
 
 /* MAIN */
