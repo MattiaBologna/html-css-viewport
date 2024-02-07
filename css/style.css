@@ -44,3 +44,32 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/* Webapp */
+
+#app {
+    height: 100vh;
+    background-color: #0E0E0E;
+    color: white;
+    display: flex;
+}
+
+main {
+    width: 100vw;
+}
+
+
+/* Style */
+
+.page__header {
+    background-color: black;
+    width: 280px;
+    padding: 20px;
+}
+
+.top-bar {
+    background-color: #0E121B;
+    height: 10vh;
+    min-height: 50px;
+}
