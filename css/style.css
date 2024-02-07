@@ -1,0 +1,46 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+
+
+/* Layout */
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
