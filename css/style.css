@@ -44,11 +44,22 @@ header {
     width: 280px;
     height: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main {
     background-color: #141923;
     width: 100%;
+}
+
+.top-bar {
+    background-color: #0E121B;
+    padding: 20px;
+}
+
+.main-content {
     padding: 20px;
 }
 
