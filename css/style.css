@@ -45,6 +45,14 @@ body {
     flex-wrap: wrap;
 }
 
+footer {
+    position: fixed;
+    width: 100vw;
+    min-height: 50px;
+    padding: 20px;
+    bottom: 0;
+    background-color: #282828;
+}
 
 /* Webapp */
 
@@ -72,4 +80,20 @@ main {
     background-color: #0E121B;
     height: 10vh;
     min-height: 50px;
+}
+
+.main__content {
+    background-color: #141923;
+}
+
+.main-sections {
+    padding: 40px
+}
+
+
+
+/* Utilities */
+
+.flex {
+    display: flex;
 }
