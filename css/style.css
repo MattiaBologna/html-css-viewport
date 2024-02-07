@@ -90,6 +90,17 @@ header ul {
 
 /* MAIN */
 
+.top-bar {
+    text-align: right;
+}
+
+.subscribe-button {
+    background-color: white;
+    padding: 16px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+
 
 
 /* FOOTER */
